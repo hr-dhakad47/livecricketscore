@@ -6,19 +6,19 @@ const Home = () => {
   return (
     <div>
       <div style={{ height: "100px" }}>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">ScoreCard</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+      <nav className="navbar navbar-expand-lg bg-body-tertiary">
+  <div className="container-fluid">
+    <a className="navbar-brand" href="#">ScoreCard</a>
+    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span className="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/Crickinfo">Crickinfo</a>
+    <div className="collapse navbar-collapse" id="navbarNav">
+      <ul className="navbar-nav">
+        <li className="nav-item">
+          <a className="nav-link active" aria-current="page" href="/Crickinfo">Crickinfo</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link active" href="/Pointstable">Pointstable</a>
+        <li className="nav-item">
+          <a className="nav-link active" href="/Pointstable">Pointstable</a>
         </li>
        
       </ul>
@@ -26,7 +26,7 @@ const Home = () => {
   </div>
 </nav>
 
-          {/* <ul class="nav-links">
+          {/* <ul className="nav-links">
           
             <li>
               <Link to="/Crickinfo">Crickinfo</Link>
